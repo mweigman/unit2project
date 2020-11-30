@@ -1,0 +1,30 @@
+* {
+    text-align: center;
+    font-family: fantasy, Tahoma, "Book Antiqua";
+}
+
+h1 {
+    color: cadetblue;
+    background-color: black;
+    padding: 15px;
+}
+
+#winnerYield {
+    font-size: xx-large;
+    color: midnightblue;
+    background-color: lightblue;
+}
+
+#button {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 3%;
+    padding-top: 3px;
+    text-align: center;
+}
+
+footer {
+    padding: 5%;
+    background-color: cadetblue;
+    font-size: small;
+}

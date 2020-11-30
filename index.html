@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Unit 2 Project (Rock Paper Scissors Lzard Spock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<header>
+    <h1>Rock Paper Scissors Lizard Spock</h1>
+</header>
+<div>
+    <div>
+        <table class="table table-borderless table-sm">
+            <thead>
+            <tr>
+                <th class="table-secondary" scope="col">You</th>
+                <th class="table-secondary" scope="col">Computer</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td id="yourResult">0</td>
+                <td id="computerResult">0</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="images">
+    <img src="rock.png" alt="" id="rock" data-option="Rock" height="227" width="227">
+    <img src="paper.png" alt="" id="paper" data-option="Paper" height="227" width="227">
+    <img src="scissors.png" alt="" id="scissors" data-option="Scissors" height="227" width="227">
+    <img src="lizard.png" alt="" id="lizard" data-option="Lizard" height="227" width="227">
+    <img src="spock.png" alt="" id="spock" data-option="Spock" height="227" width="227">
+</div>
+<div class="results">
+    <p id="userYield"></p>
+    <p id="computerYield"></p>
+    <p id="resultYield"></p>
+</div>
+<p id="winnerYield"></p>
+<div id="button">
+    <button onClick="window.location.reload();">Refresh Page to Play Again</button>
+</div>
+</body>
+<footer>
+    Created by: &#169; Melissa Weigman 2020
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="js.js"></script>
+</html>
